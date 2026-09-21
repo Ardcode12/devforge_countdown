@@ -118,7 +118,6 @@ export default function CountdownPage() {
   const hours = Math.floor(totalSeconds / 3600);
   const minutes = Math.floor((totalSeconds % 3600) / 60);
   const seconds = totalSeconds % 60;
-  const milliseconds = Math.floor((remainingTimeMs % 1000) / 100);
 
   return (
     <div className="kollywood-stage-wrapper">
@@ -194,10 +193,7 @@ export default function CountdownPage() {
                 <span className="chalk-colon">:</span>
 
                 <div className="chalk-time-unit">
-                  <div className="seconds-digit-wrapper">
-                    <span className="chalk-time-digits">{String(seconds).padStart(2, '0')}</span>
-                    <span className="chalk-ms-digit">.{milliseconds}</span>
-                  </div>
+                  <span className="chalk-time-digits">{String(seconds).padStart(2, '0')}</span>
                   <span className="chalk-unit-name">SECONDS</span>
                 </div>
               </div>
