@@ -99,10 +99,10 @@ export default function AdminPanel() {
       subtitle: 'Final sprint before repository freeze! Commit and deploy your builds now!',
       type: 'rush',
       theme: 'rose',
-      durationMinutes: 30,
+      durationMinutes: null,
       icon: Zap,
       color: '#f43f5e',
-      badge: 'Final Sprint',
+      badge: 'Sprint Mode',
     },
   ];
 
