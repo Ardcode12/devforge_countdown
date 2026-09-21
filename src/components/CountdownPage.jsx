@@ -138,7 +138,7 @@ export default function CountdownPage() {
             </div>
             <h1 className="cinema-event-title">24-HOUR HACKATHON COUNTDOWN</h1>
             <p className="cinema-credits-line">
-              PRODUCER: <strong>DEVFORGE</strong> • CREW: <strong>DEVELOPERS</strong> • EVENT: <strong>CODE SPRINT 2026</strong>
+              PRODUCER: <strong>ITA</strong> • CREW: <strong>DEVELOPERS</strong> • EVENT: <strong>DEVFORGE 2026</strong>
             </p>
           </div>
 
